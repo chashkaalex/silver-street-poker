@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "es2018",
+        "module": "commonjs",
+        "rootDir": "./",
+        "outDir": "./dist",
+        "strict": false,
+        "noImplicitAny": false,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "include": [
+        "**/*.ts",
+        "app.js",
+        "server-script/**/*.js",
+        "socket-io/**/*.js"
+    ],
+    "exclude": [
+        "node_modules",
+        "public"
+    ]
+}
